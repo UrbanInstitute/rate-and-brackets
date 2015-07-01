@@ -1,0 +1,20 @@
+.bracket{
+  background: red;
+  width: 300px;
+  position: absolute;
+}
+
+.rate-handle{
+  background: black;
+  width: 300px;
+  height: 10px;
+  position: relative;
+}
+
+.bracket-handle{
+  background: blue;
+  width: 100px;
+  height: 110px;
+  float: right;
+  width: 10px;
+}
