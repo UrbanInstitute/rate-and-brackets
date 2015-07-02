@@ -1,6 +1,6 @@
-//rates and brackets from https://www.taxact.com/tools/tax-bracket-calculator.asp for single filer
+//rates and brackets from http://www.forbes.com/sites/kellyphillipserb/2014/10/30/irs-announces-2015-tax-brackets-standard-deduction-amounts-and-more/ for single filer
 var rates = [10,15,25,28,33,35,39.6]
-var brackets = [9075,36900,89350,186350,405100,406750,600000]
+var brackets = [9225,37450,90750,189300,411500,413200,600000]
 var HANDLE_WIDTH = 2;
 var margins = {top: 10, right: 20, bottom: 20, left: 60}
 var leftAdjust = 0;
