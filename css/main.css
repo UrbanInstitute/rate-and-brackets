@@ -31,7 +31,8 @@ svg {
 }
 
 rect {
-  fill: steelblue;
+  fill: #1696d2;
+  stroke: #1696d2;
 }
 
 .axis path, .axis line {
