@@ -1,20 +1,51 @@
+#bracketContainer{
+	position: relative;
+	height: 300px;
+	width: 960px;
+}
 .bracket{
-  background: red;
-  width: 300px;
+  bottom: 0;
+  background: #ccc;
   position: absolute;
+  z-index: 0;
+  margin-left: 60px;
 }
 
-.rate-handle{
-  background: black;
-  width: 300px;
-  height: 10px;
-  position: relative;
+.rate.label{
+  margin: 0 auto;
+  width: 31px;
+  z-index: 2;
+  cursor: pointer;
 }
 
-.bracket-handle{
-  background: blue;
-  width: 100px;
-  height: 110px;
-  float: right;
-  width: 10px;
+.bracket.label{
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+svg {
+  font: 10px sans-serif;
+}
+
+rect {
+  fill: steelblue;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+h2{
+  position: absolute;
+  left: 130px;
+  padding-top: 60px;
+}
+
+#chart{
+	padding-top: 100px;
 }
